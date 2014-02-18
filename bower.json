@@ -1,0 +1,25 @@
+{
+  "name": "parallaxr",
+  "version": "0.1.0",
+  "authors": [
+    "Evan Hammond <evan.hammond@gmail.com>"
+  ],
+  "description": "Simple image parallax plugin",
+  "main": "jquery.parallaxr.js",
+  "keywords": [
+    "parallax",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/EvanHammond",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies":{
+    "jquery":"~2.0"
+  }
+}

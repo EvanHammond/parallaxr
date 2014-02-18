@@ -1,3 +1,11 @@
+/*
+ *  parallaxr - v0.1.0
+ *  Simple image parallax plugin
+ *  
+ *
+ *  Made by Evan Hammond <evan.hammond@gmail.com>
+ *  Under MIT License
+ */
 ;(function ($, window, document, undefined) {
 	var pluginName = "parallaxr",
 		defaults = {};
@@ -26,7 +34,7 @@
 					"rate": $e.data("prate"),
 					"oPos": pos,
 					"nPos": pos
-				}
+				};
 			});
 
 			this.w.on("scroll", {"plugin":this}, function(e){
